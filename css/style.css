@@ -1,0 +1,152 @@
+#logo{
+    float:left;
+    margin-left:20px;
+    font-size:37px;
+    margin-top:15px;
+  color:white;
+    font-weight:bold;
+    
+  }
+  span{
+    color:white;
+    font-size:25px;
+    margin:8px;
+     cursor:pointer;
+    font-family:black ops one;
+  }
+  
+  #box1>span{
+    font-size:60px;
+    font-style:italic;
+  word-spacing:12px;
+    cursor:pointer;
+    color:yellow;
+    
+  }
+  
+  a[target]{
+    color:white;
+    text-decoration:none;
+    align-text:right;
+    padding:25px;
+  
+    position:relative;
+    top:20px;
+      font-family: Verdana;
+  }
+  
+  .nav{
+    text-align:right;
+    /* background:green; */
+    margin-top:50px;
+    height:70px;
+     font-family: Verdana;
+    font-weight:bold;
+  }
+  
+  body{
+    background-image: url(/img/background.jpg);
+
+     
+  }
+  strong{
+    padding:3px;
+    font-family:black ops one;
+    color:white;
+    
+    font-size:25px;
+  
+    position:relative;
+    top:25px;
+    margin-left:15px;
+    
+    
+  }
+  p{
+    font-family:black ops one;
+    color:yellow;
+    padding:10px;
+    font-style:italic;
+    font-size:20px;
+    line-height:0.3px;
+  }
+  
+  a[target]:hover{
+    color:red;
+  }
+  
+  #logo:hover{
+    color:blue;
+  cursor:pointer;
+  }
+  
+  
+  
+  .row{
+    position: relative;
+    width: 100%;
+    margin-top:3px;
+  }
+  
+  #box1 {
+    width:500px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 20px;
+   
+  }
+  
+  #box3 {
+    position: absolute;
+    right: 0px;
+   
+    width:30rem;
+    transition: width 2s, height 2s;
+    cursor: pointer;
+   
+  }
+
+  #box3:hover{
+    height:500px;
+    width:40rem;
+  
+  }
+  
+  
+  button{
+    margin-left:50px;
+    background:
+    color:white;
+  border:2px solid white;
+    box-shadow:2px 2px black;
+  cursor:pointer;
+    border-radius:9px;
+    font-size:20px;
+  }
+
+
+  h5{
+    margin:10px;
+    color:white;
+    font-size: 15px;
+  }
+  
+  
+  button:hover{
+    color:black;
+    background:yellow;
+  
+  }
+  footer{
+    background:cyan;
+    height:45px;
+    
+  }
+  
+  
+  footer>a{
+  margin:20px;
+    padding:8px;
+    text-decoration:none;
+  
+  }
