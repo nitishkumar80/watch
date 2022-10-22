@@ -32,7 +32,7 @@
   
     position:relative;
     top:20px;
-      font-family: Verdana;
+    font-family:black ops one;
   }
   
   .nav{
@@ -40,22 +40,23 @@
     /* background:green; */
     margin-top:50px;
     height:70px;
-     font-family: Verdana;
+     
     font-weight:bold;
   }
   
   body{
-    background-image: url(img/background.jpg);
-    background: silver;
+    /* background-image: url(background.jpg); */
+
+    
+    background:#ABA8A9; 
 
      
   }
   strong{
     padding:3px;
-    font-family:black ops one;
-    color:white;
+    font-size:20px;
     
-    font-size:25px;
+    font-size:27px;
   
     position:relative;
     top:25px;
@@ -102,14 +103,16 @@
     right: 0px;
    
     width:30rem;
-    transition: width 2s, height 2s;
+    /* transition: width 2s, height 2s; */
+    transition:all 0.5s ease-in-out;
     cursor: pointer;
    
   }
 
   #box3:hover{
-    height:500px;
-    width:40rem;
+    /* height:0px;
+    width:0px; */
+    transform:scale(2);
   
   }
   
@@ -138,7 +141,7 @@
     background:yellow;
   
   }
-  footer{
+  /* footer{
     background:cyan;
     height:45px;
     
@@ -150,4 +153,110 @@
     padding:8px;
     text-decoration:none;
   
+  } */
+
+  h8{
+    margin-left: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-family:black ops one;
+    color: white;
   }
+
+  h12{
+    margin-left:150px;
+    font-size: 20px;
+    font-family:black ops one;
+    font-style: italic;
+  }
+
+  #box1>strong{
+    color:black;
+    font-style: italic;
+  }
+
+  .h7{
+    text-align: center;
+    font-size: 25px;
+    font-family: black ops one;
+    font-style: italic;
+    color: crimson;
+    
+  }
+
+.p{
+  padding-left: 100px;
+  padding-right: 80px;
+  line-height: 1.7;
+  /* text-align: center; */
+  
+}
+
+h14{
+  font-size: 15px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+
+
+.colu1{
+ 
+  width:500px;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: 150px;
+  transition:all 0.5s ease-in-out;
+
+}
+.colu1:hover{
+  transform:scale(2);
+}
+.colu2{
+  position: absolute;
+  right:0px;
+    width:500px;
+  height: 300px;
+  margin-top: 10px;
+  margin-left: 20px;
+  
+}
+
+.row2{
+  display:grid;
+}
+
+.colu2{
+  margin-top: 90px;
+  margin-right: 120px;
+}
+
+#text{
+font-size: 30px;
+font-style: italic;
+/* margin-left:80px; */
+
+}
+
+h20{
+  font-size: 15px;
+  font-family: 'Lucida Sans';
+}
+h16{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h11{
+  font-size: 40px;
+  font-style:italic;
+  font-family:black ops one;
+  color:yellow;
+}
+
+h18{
+  font-size: 30px;
+  font-style:italic;
+  font-family:black ops one;
+colo
+}
